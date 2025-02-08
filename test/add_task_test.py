@@ -7,3 +7,4 @@ def test_add():
     
     assert response.status_code == 202
     assert response_body['completed'] == False
+    assert response_body['completed'] == tRUE
